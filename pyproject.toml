@@ -1,0 +1,30 @@
+[project]
+name = "job-watcher"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "lanch",email = "hoanglan.ict@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.12"
+license = { file = "LICENSE" }
+dependencies = [
+    "scrapy (>=2.13.0,<3.0.0)",
+    "beautifulsoup4 (>=4.13.4,<5.0.0)",
+    "pandas (>=2.2.3,<3.0.0)",
+    "pydantic (>=2.11.4,<3.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.group.dev.dependencies]
+ruff = "^0.11.9"
+pre-commit = "^4.2.0"
+
+[tool.ruff]
+# add import sorting to your existing rules
+lint.extend-select = ["I"]
+line-length = 88

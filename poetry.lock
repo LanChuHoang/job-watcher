@@ -1321,6 +1321,23 @@ w3lib = ">=1.17.0"
 zope-interface = ">=5.1.0"
 
 [[package]]
+name = "scrapy-spider-metadata"
+version = "0.2.0"
+description = "Utilities to extend Scrapy spiders with usable metadata."
+optional = false
+python-versions = ">=3.8"
+groups = ["main"]
+files = [
+    {file = "scrapy_spider_metadata-0.2.0-py3-none-any.whl", hash = "sha256:76a4f129c66b589f2b13a47f696fb467e78671c98f3633671ce6631b71e81f24"},
+    {file = "scrapy_spider_metadata-0.2.0.tar.gz", hash = "sha256:256ee5e8f98c570116765f86917a5c123bb707476f92b514ef4d3a1ecf6a7bf7"},
+]
+
+[package.dependencies]
+packaging = ">=14.1"
+pydantic = ">=1.9"
+scrapy = ">=1.0.0"
+
+[[package]]
 name = "service-identity"
 version = "24.2.0"
 description = "Service identity verification for pyOpenSSL & cryptography."
@@ -1596,4 +1613,4 @@ testing = ["coverage[toml]", "zope.event", "zope.testing"]
 [metadata]
 lock-version = "2.1"
 python-versions = ">=3.12"
-content-hash = "70ab9ba8c6b6debfefe5fa5da95a21708da9169e0913e75252e15d0f9bb0dd36"
+content-hash = "8ad687ca8a83bc0b3dd340a29657f0a4078fc79eac3ad9d6ee2a448cbaf554b4"

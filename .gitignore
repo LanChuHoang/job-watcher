@@ -175,3 +175,7 @@ cython_debug/
 
 # local files
 temp.py
+**/*.csv
+
+# proxy files
+proxies.txt
